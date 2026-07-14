@@ -9,11 +9,17 @@ Planteamiento del Problema
 Actualmente, muchos bares y cervecerías administran sus operaciones utilizando registros manuales o aplicaciones que no están integradas entre sí. Esta situación ocasiona problemas como:
 
 -Errores en el registro de ventas.
+
 -Pérdida o duplicidad de información.
+
 -Descontrol del inventario.
+
 -Dificultad para conocer la disponibilidad de productos.
+
 -Retrasos en la asignación de mesas.
+
 -Falta de control sobre los pagos realizados.
+
 -Escasa generación de reportes para la administración del negocio.
 
 Estas limitaciones afectan la productividad del establecimiento y dificultan la toma de decisiones oportunas.
