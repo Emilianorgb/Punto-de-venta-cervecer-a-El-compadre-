@@ -1,26 +1,50 @@
-Sistema de Gestión para Bar/Cervecería
+Sistema de Gestión para la Cervecería "El Compadre"
 
-Descripción
+Introducción
 
-Este proyecto consiste en el desarrollo de un **Sistema de Gestión para un Bar/Cervecería**, diseñado para optimizar la administración de las operaciones diarias del establecimiento. El sistema permitirá centralizar la gestión de clientes, empleados, proveedores, productos, inventario, compras, ventas, mesas y pagos mediante una interfaz gráfica intuitiva y una base de datos relacional.
+La administración eficiente de un bar o cervecería requiere controlar múltiples procesos de forma simultánea, como la gestión de clientes, empleados, productos, inventario, compras, ventas, mesas y pagos. Cuando estas actividades se realizan de manera manual o mediante herramientas independientes, es común que se presenten errores en el registro de información, pérdidas de inventario, retrasos en la atención al cliente y dificultades para generar reportes que apoyen la toma de decisiones.
 
-El objetivo principal es reemplazar procesos manuales por una solución informática que facilite el control de la información, reduzca errores operativos y mejore la eficiencia en la atención al cliente y la administración del negocio.
+Planteamiento del Problema
 
+Actualmente, muchos bares y cervecerías administran sus operaciones utilizando registros manuales o aplicaciones que no están integradas entre sí. Esta situación ocasiona problemas como:
+
+-Errores en el registro de ventas.
+-Pérdida o duplicidad de información.
+-Descontrol del inventario.
+-Dificultad para conocer la disponibilidad de productos.
+-Retrasos en la asignación de mesas.
+-Falta de control sobre los pagos realizados.
+-Escasa generación de reportes para la administración del negocio.
+
+Estas limitaciones afectan la productividad del establecimiento y dificultan la toma de decisiones oportunas.
+
+Con el propósito de optimizar la operación del establecimiento, se propone desarrollar un Sistema de Gestión para Bar y Cervecería que centralice toda la información en una única plataforma, permitiendo automatizar los procesos administrativos y operativos mediante una interfaz gráfica intuitiva y una base de datos relacional.
+
+Justificación
+
+El desarrollo de un sistema informático permitirá automatizar las actividades principales del negocio, reduciendo errores humanos y mejorando el control de la información.
+
+Además, facilitará el seguimiento de las ventas, el control del inventario, la administración de clientes y proveedores, así como la generación de reportes que apoyen la toma de decisiones del administrador.
+
+La implementación de este sistema contribuirá a mejorar la eficiencia operativa, optimizar los tiempos de atención y proporcionar una administración más organizada y segura.
 
 🎯 Objetivo General
 
-Desarrollar un sistema de gestión para un bar o cervecería que automatice los procesos administrativos y operativos, proporcionando una herramienta confiable para el control del inventario, las ventas y la información del establecimiento.
+Desarrollar un sistema de gestión para un bar y cervecería que permita administrar de manera eficiente los procesos de ventas, compras, inventario, clientes, empleados, proveedores, mesas y pagos, utilizando una arquitectura Modelo-Vista-Controlador (MVC), una base de datos MySQL y una interfaz gráfica intuitiva.
 
 🎯 Objetivos Específicos
 
-- Gestionar clientes, empleados y proveedores.
-- Administrar el catálogo de productos.
-- Controlar el inventario en tiempo real.
-- Registrar compras y ventas.
-- Administrar el estado de las mesas.
-- Registrar pagos realizados por los clientes.
-- Generar consultas y reportes para apoyar la toma de decisiones.
-
+-Diseñar una base de datos relacional que garantice la integridad de la información.
+-Implementar un sistema de autenticación para el acceso de los usuarios.
+-Administrar la información de clientes, empleados y proveedores.
+-Gestionar el catálogo de productos y sus categorías.
+-Controlar las existencias del inventario.
+-Registrar compras realizadas a proveedores.
+-Registrar ventas efectuadas a los clientes.
+-Gestionar la ocupación de las mesas.
+-Registrar los pagos asociados a las ventas y compras.
+-Generar reportes para apoyar la toma de decisiones.
+-Desarrollar una interfaz gráfica intuitiva y fácil de utilizar.
 
 Funcionalidades
 
