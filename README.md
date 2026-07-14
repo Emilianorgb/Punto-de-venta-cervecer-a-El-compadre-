@@ -36,7 +36,6 @@ Funcionalidades
 - 💵 Registro de pagos.
 - 📊 Generación de reportes.
 
----
 
 Tecnologías Utilizadas
 
