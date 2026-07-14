@@ -1,32 +1,32 @@
-Sistema de Gestión para la Cervecería "El Compadre"
+💾Sistema de Gestión para la Cervecería "El Compadre"
 
-Introducción
+📝Introducción
 
 La administración eficiente de un bar o cervecería requiere controlar múltiples procesos de forma simultánea, como la gestión de clientes, empleados, productos, inventario, compras, ventas, mesas y pagos. Cuando estas actividades se realizan de manera manual o mediante herramientas independientes, es común que se presenten errores en el registro de información, pérdidas de inventario, retrasos en la atención al cliente y dificultades para generar reportes que apoyen la toma de decisiones.
 
-Planteamiento del Problema
+📝Planteamiento del Problema
 
 Actualmente, muchos bares y cervecerías administran sus operaciones utilizando registros manuales o aplicaciones que no están integradas entre sí. Esta situación ocasiona problemas como:
 
--Errores en el registro de ventas.
+✏️Errores en el registro de ventas.
 
--Pérdida o duplicidad de información.
+✏️Pérdida o duplicidad de información.
 
--Descontrol del inventario.
+✏️Descontrol del inventario.
 
--Dificultad para conocer la disponibilidad de productos.
+✏️Dificultad para conocer la disponibilidad de productos.
 
--Retrasos en la asignación de mesas.
+✏️Retrasos en la asignación de mesas.
 
--Falta de control sobre los pagos realizados.
+✏️Falta de control sobre los pagos realizados.
 
--Escasa generación de reportes para la administración del negocio.
+✏️Escasa generación de reportes para la administración del negocio.
 
 Estas limitaciones afectan la productividad del establecimiento y dificultan la toma de decisiones oportunas.
 
 Con el propósito de optimizar la operación del establecimiento, se propone desarrollar un Sistema de Gestión para Bar y Cervecería que centralice toda la información en una única plataforma, permitiendo automatizar los procesos administrativos y operativos mediante una interfaz gráfica intuitiva y una base de datos relacional.
 
-Justificación
+📝Justificación
 
 El desarrollo de un sistema informático permitirá automatizar las actividades principales del negocio, reduciendo errores humanos y mejorando el control de la información.
 
@@ -40,80 +40,117 @@ Desarrollar un sistema de gestión para un bar y cervecería que permita adminis
 
 🎯 Objetivos Específicos
 
--Diseñar una base de datos relacional que garantice la integridad de la información.
--Implementar un sistema de autenticación para el acceso de los usuarios.
--Administrar la información de clientes, empleados y proveedores.
--Gestionar el catálogo de productos y sus categorías.
--Controlar las existencias del inventario.
--Registrar compras realizadas a proveedores.
--Registrar ventas efectuadas a los clientes.
--Gestionar la ocupación de las mesas.
--Registrar los pagos asociados a las ventas y compras.
--Generar reportes para apoyar la toma de decisiones.
--Desarrollar una interfaz gráfica intuitiva y fácil de utilizar.
+✏️Diseñar una base de datos relacional que garantice la integridad de la información.
 
-Funcionalidades
+✏️Implementar un sistema de autenticación para el acceso de los usuarios.
 
-- 🔐 Inicio de sesión de usuarios.
-- 👥 Gestión de clientes.
-- 👨‍💼 Gestión de empleados.
-- 🚚 Gestión de proveedores.
-- 🍺 Administración de productos.
-- 📦 Control de inventario.
-- 🛒 Registro de compras.
-- 💳 Registro de ventas.
-- 🪑 Administración de mesas.
-- 💵 Registro de pagos.
-- 📊 Generación de reportes.
+✏️Administrar la información de clientes, empleados y proveedores.
+
+✏️Gestionar el catálogo de productos y sus categorías.
+
+✏️Controlar las existencias del inventario.
+
+✏️Registrar compras realizadas a proveedores.
+
+✏️Registrar ventas efectuadas a los clientes.
+
+✏️Gestionar la ocupación de las mesas.
+
+✏️Registrar los pagos asociados a las ventas y compras.
+
+✏️Generar reportes para apoyar la toma de decisiones.
+
+✏️Desarrollar una interfaz gráfica intuitiva y fácil de utilizar.
+
+📝Alcance
+
+El sistema permitirá administrar las operaciones principales del establecimiento mediante los siguientes módulos:
+
+✅Inicio de sesión.
+
+✅Gestión de usuarios.
+
+✅Gestión de empleados.
+
+✅Gestión de clientes.
+
+✅Gestión de proveedores.
+
+✅Gestión de categorías.
+
+✅Gestión de productos.
+
+✅Gestión de inventario.
+
+✅Gestión de compras.
+
+✅Gestión de ventas.
+
+✅Gestión de mesas.
+
+✅Gestión de pagos.
+
+✅Generación de recibos.
+
+✅Reportes.
+
+El sistema será desarrollado como una aplicación de escritorio en Java utilizando el patrón Modelo-Vista-Controlador (MVC) y una base de datos MySQL.
+
+No se contempla para esta primera versión:
+
+❌Facturación electrónica.
+
+❌Pedidos en línea.
+
+❌Aplicación móvil.
+
+❌Integración con plataformas bancarias.
+
+❌Administración de múltiples sucursales.
+
+Actores del Sistema
+
+🧑‍💼Administrador
+
+Es el responsable de supervisar el funcionamiento general de El Compadre.
+
+Funciones:
+
+Administrar usuarios.
+
+Gestionar empleados.
+
+Consultar reportes.
+
+Supervisar ventas y compras.
+
+Controlar el inventario.
+
+👨‍🍳Mesero
+
+Es el encargado de brindar atención a los clientes.
+
+Funciones:
+
+Asignar mesas.
+
+Registrar pedidos.
+
+Registrar ventas.
+
+Registrar pagos.
+
+Liberar mesas.
 
 
-Tecnologías Utilizadas
+📦Encargado de Inventario
 
-- Lenguaje:** Java
-- Arquitectura: Modelo - Vista - Controlador (MVC)
-- Base de Datos: MySQL
-- IDE:** IntelliJ IDEA
-- Conectividad: JDBC
-- Control de Versiones: Git y GitHub
+Es responsable del abastecimiento de productos.
 
-Estructura del Proyecto
+Funciones:
 
-src
-
-├── controller
-
-├── model
-
-│        ├── dao
-
-│        ├── entities
-
-│        └── connection
-
-├── view
-
-├── service
-
-└── utils
-
-Roles del Sistema
-
-Administrador
-- Gestiona usuarios y permisos.
-- Administra la información del sistema.
-- Consulta reportes.
-
-Mesero
-- Registra pedidos y ventas.
-- Gestiona las mesas.
-- Registra pagos.
-
-Encargado de Inventario
-- Administra productos.
-- Gestiona proveedores.
-- Controla el inventario.
-- Registra compras.
-
-Licencia
-
-Este proyecto fue desarrollado con fines académicos y de aprendizaje.
+Registrar proveedores.
+Registrar compras.
+Actualizar inventario.
+Consultar existencias.
+Administrar productos.
