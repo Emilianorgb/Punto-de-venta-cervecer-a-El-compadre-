@@ -1,0 +1,134 @@
+Actores del Sistema
+
+
+🧑‍💼Administrador
+
+Es el responsable de supervisar el funcionamiento general de El Compadre.
+
+Funciones:
+
+-Administrar usuarios.
+
+-Gestionar empleados.
+
+-Consultar reportes.
+
+-Supervisar ventas y compras.
+
+-Controlar el inventario.
+
+👨‍🍳Mesero
+
+Es el encargado de brindar atención a los clientes.
+
+Funciones:
+
+-Asignar mesas.
+
+-Registrar pedidos.
+
+-Registrar ventas.
+
+-Registrar pagos.
+
+-Liberar mesas.
+
+
+📦Encargado de Inventario
+
+Es responsable del abastecimiento de productos.
+
+Funciones:
+
+-Registrar proveedores.
+
+-Registrar compras.
+
+-Actualizar inventario.
+
+-Consultar existencias.
+
+-Administrar productos.
+
+👨‍💻Requerimientos Funcionales
+
+El sistema deberá permitir:
+
+✔️Autenticar usuarios mediante inicio de sesión.
+
+✔️Administrar usuarios del sistema.
+
+✔️Registrar, consultar, actualizar y eliminar empleados.
+
+✔️Registrar, consultar, actualizar y eliminar clientes.
+
+✔️Registrar, consultar, actualizar y eliminar proveedores.
+
+✔️Registrar, consultar, actualizar y eliminar categorías.
+
+✔️Registrar, consultar, actualizar y eliminar productos.
+
+✔️Actualizar automáticamente el inventario.
+
+✔️Registrar compras.
+
+✔️Registrar ventas.
+
+✔️Asociar productos a una venta.
+
+✔️Calcular automáticamente subtotales, IVA y total.
+
+✔️Registrar pagos.
+
+✔️Generar recibos.
+
+✔️Consultar reportes.
+
+❎Requerimientos No Funcionales
+❌El sistema deberá desarrollarse en Java.
+
+❌Utilizará Programación Orientada a Objetos.
+
+❌Implementará la arquitectura Modelo-Vista-Controlador (MVC).
+
+❌Utilizará MySQL como gestor de base de datos.
+
+❌La conexión con la base de datos se realizará mediante JDBC.
+
+❌La interfaz gráfica será intuitiva y fácil de utilizar.
+
+❌El acceso estará protegido mediante autenticación de usuarios.
+
+❌La información deberá mantenerse íntegra y consistente.
+
+❌El sistema será compatible con sistemas operativos Windows.
+
+🖥️Tecnologías a Utilizar
+
+Componente	Tecnología
+
+-Lenguaje	Java
+
+-Arquitectura	MVC
+
+-Base de Datos	MySQL
+
+-Conectividad	JDBC
+
+-IDE	IntelliJ IDEA
+
+-Control de Versiones	Git
+
+-Repositorio	GitHub
+
+⚙️Arquitectura General del Sistema
+
+El sistema será desarrollado siguiendo el patrón Modelo-Vista-Controlador (MVC), el cual divide la aplicación en tres componentes principales:
+
+Modelo (Model): Gestiona la lógica del negocio y el acceso a la base de datos.
+
+Vista (View): Contiene las interfaces gráficas con las que interactúan los usuarios.
+
+Controlador (Controller): Coordina la comunicación entre la vista y el modelo, procesando las acciones del usuario.
+
+Esta arquitectura facilita el mantenimiento, la escalabilidad y la reutilización del código.
