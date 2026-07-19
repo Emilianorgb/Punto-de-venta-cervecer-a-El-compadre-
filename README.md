@@ -1,1 +1,1 @@
-![Logo del proyecto](img/logo.png)
+![Logo del proyecto](Logo El Compadre.png)
